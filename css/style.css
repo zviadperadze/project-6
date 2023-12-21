@@ -5,7 +5,7 @@ body{
 
 .container{
 	width: 1300px;
-	height: 1300px;
+/*	height: 960px;*/
 	margin: 0 auto;
 	display: block;
 }
@@ -29,7 +29,7 @@ body{
 	position: absolute;
 	top: 603px;
 	left: 615px;
-	animation: move 3s ease-in infinite;
+	animation: move 2s ease-in infinite;
 }
 
 
@@ -39,7 +39,7 @@ body{
 	
 	
 	
-	100%{width: 600px;top: 700px;left: -70px;}
+	100%{width: 600px;top: 600px;left: 10px;}
 }
 
 
