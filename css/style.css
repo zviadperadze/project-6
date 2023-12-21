@@ -1,0 +1,95 @@
+body{
+	background-color: black;
+}
+
+
+.container{
+	width: 1300px;
+	height: 1300px;
+	margin: 0 auto;
+	display: block;
+}
+
+.road{
+	width: 1280px;
+	height: 960px;
+	margin: 10px auto;
+	border: 1px solid blue;
+	background-image: url(../images/road.png);
+	background-repeat: no-repeat;
+	background-position: cover;
+	position: relative;
+	display: block;
+}
+
+
+
+.mers{
+	width: 40px;
+	position: absolute;
+	top: 603px;
+	left: 615px;
+	animation: move 3s ease-in infinite;
+}
+
+
+@keyframes move{
+
+	0%{width: 40px;top: 603px;left: 615px;}
+	
+	
+	
+	100%{width: 600px;top: 700px;left: -70px;}
+}
+
+
+.plane{
+	position: absolute;
+	width: 400px;
+	right: 0px;
+	animation: flight 6s linear infinite;
+}
+
+@keyframes flight{
+
+	0% {right: 0;}
+	100%{right: 900px;}
+}
+
+.plane:hover{
+	cursor: pointer;
+	width: 600px;
+}
+
+.volt{
+	position: absolute;
+	width: 600px;
+	bottom: -100px;
+	right: 100px;
+	animation: volt 1s linear infinite ;
+}
+
+@keyframes volt{
+
+	0%  {width: 600px ;bottom: -100px; right: ;}
+	100% {width:100px ;bottom: 300px; right:530px ;}
+}
+
+.plane1{
+	position: absolute;
+	width: 300px;
+	top: 300px;
+	right: 20px;
+	transform: rotate(0);
+	transition: all;
+	transition-duration: 2s;
+}
+
+.plane1:hover{
+
+	cursor: pointer;
+	transform: rotate(45deg);
+	width: 700px;
+	top: 200px;
+	right: -100px;
+}
