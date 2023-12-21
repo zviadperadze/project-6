@@ -53,7 +53,7 @@ body{
 @keyframes flight{
 
 	0% {right: 0;}
-	100%{right: 900px;}
+	100%{right: 780px;}
 }
 
 .plane:hover{
