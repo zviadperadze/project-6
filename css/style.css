@@ -17,7 +17,7 @@ body{
 	border: 1px solid blue;
 	background-image: url(../images/road.png);
 	background-repeat: no-repeat;
-	background-position: cover;
+	background-size: cover;
 	position: relative;
 	display: block;
 }
@@ -48,6 +48,7 @@ body{
 	width: 400px;
 	right: 0px;
 	animation: flight 6s linear infinite;
+	transition-duration: 2s;
 }
 
 @keyframes flight{
@@ -59,6 +60,7 @@ body{
 .plane:hover{
 	cursor: pointer;
 	width: 600px;
+
 }
 
 .volt{
